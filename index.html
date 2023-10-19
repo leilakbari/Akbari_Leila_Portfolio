@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>GreenSock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <i class="fa-solid fa-bars-staggered" style="color: #ffffff;"></i>
+    <script src="https://kit.fontawesome.com/31678048ca.js" crossorigin="anonymous"></script>
+    <title>Responsive Portfolio Website</title>
     <!-- Link to reset or normalize before main.css
     only choose one -->
     <link href="css/grid.css" rel="stylesheet">
@@ -13,15 +18,57 @@
 </head>
 
 <body>
-    <div class="grid-con">
-        <div class="col-span-full">
-            <div id="ball1"></div>
-            <div id="ball2"></div>
-            <div id="ball3"></div>
-        </div>
-    </div>
+    <h1 class="hidden">Leila-Akbari</h1>
+    
+        <header class="box" id="main-header">
+            <h1>HIIIIII</h1>
+            <div id="logo">
+                <img src="images/Akbari_Leila_Logo.svg" alt="Portfolio Logo">
+            </div>
+            <nav class="nav-bar"><a href="/" class="navbar__logo"></a>
+                <div class="navbar__bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="navbar__menu">
+                    <a href="/" class="navbar__menu--links">Home</a>
+                    <a href="/" class="navbar__menu--links">Projects</a>
+                    <a href="/" class="navbar__menu--links">Contact</a>
+                    <a href="/" class="navbar__menu--links">About</a>
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="hero__container">
+                    <div class="hero__container--left">
+                        <h1 class="header">Hello! <br> I'm Leila Akbari</h1>
+                        <p>I’m a UI/UX designer based in London, Canada with 
+                            experience in delivering end-to-end UX/UI design for 
+                            software products. I’m passionate about improving the 
+                            lives of others through design and I am constantly 
+                            looking to learn new things every day.</p>
+                            <button class="hero__container--btn">
+                                <a href="#">More About Me</a>
+                            </button>
+                    </div>
+                    <div class="hero__container--right">
+                        <img src="images/HeroIMG-web.png" alt="hero-img" class="hero__container--img">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    <!-- main library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- ScrollTo plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+     <!-- our main js file -->
     <script src="js/main.js"></script>
 </body>
 
