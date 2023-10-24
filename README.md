@@ -1,18 +1,14 @@
 # Akbari_Leila_Portfolio
 
-This website is designed as a portfolio where I introduce myself and tell about my interests and add my selected portfolios. By clicking on each project, its details and the process that has been completed will be displayed. Companies and individuals can communicate with me by placing communication channels including my email and social media accounts.
-I will have a total of five separate pages, including the homepage and about me, and three pages for my chosen projects. 
-For the website home page, by clicking on the scrolling button, the page would move horizontally and goes to the about me page and if you keep scrolling you will see the selected my projects. By clicking on the view button on each project which would lead you to a new page, you can scroll vertically to read more the information and the process of the project. 
-On the about me page, I explained more about myself and by clicking on the Read More button it will lead to a new page that you can read more about me and my interests.
-In the footer that is fixed, my email and links to my resume and social media (Dribbble and LinkedIn) will placed. For the mobile and tablet versions, all pages can be scrolled vertically, and a new page opens by clicking on each button.
+In this project, a pair of 3D earbuds is designed with details and it is going to be turned into a promotional website. I used HTML, SCC, SASS, JS to code this page. I also used GSAP to make it more user-friendly and fun.
 
 
 ## Installation
-The web site was first drafted in Adobe xd to give a plan on how we wanted the website to come together. HTML, CSS and javascript was used in coding the website. The HTML was used to write the content of the page, CSS was used to layout the layout as well as give some response to the website and javascript was used to target the response and making the webpage engaging. This website was made to perfectly to suite three different devices that is Desktop (1920 and 1200 ), Tablet (768) and Mobile (320).
+The earbuds was first designed in C4D and with the help of https://modelviewer.dev/editor/ website I added some hotspost that shows different parts of the earbuds. HTML, CSS, SASS and javascript was used in coding the website. The HTML was used to write the content of the page, CSS and SASS was used to layout the layout as well as give some response to the website and JavaScript was used for the purpose of displaying the earbuds component information. This website was made to perfectly to suite three different devices that is Desktop (1920 and 1200 ), Tablet (768) and Mobile (320).
 
 ## Usage
 
-This is a site to introduce myself and share my projects and knowledge and everyone can visit it.
+By clicking on the screen and rotating, you can see the entire outer body of the earbuds in 3D. Also, by clicking on each hotspot, the detailed description of the earbuds components will be shown. 
 
 ## Contributing
 
