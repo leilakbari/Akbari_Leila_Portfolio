@@ -36,6 +36,6 @@ This is a site to introduce myself and share my projects and knowledge and every
 MIT
 
 
-Thank you for visiting Leila Akbari's Portfolio!
+Thank you for visiting my/Leila Akbari's Portfolio!
 - - -
 © Fall-2023  Leila Akbari
